@@ -1,7 +1,9 @@
 from rest_framework import serializers
+from .models import User
 
-class UserSerializer(serializers.Serializer):
-    id = serializers.UUIDField(read_only=True)
-    name = serializers.CharField(max_length=20)
-    email = serializers.EmailField()
-    age = serializers.IntegerField(min_value=0)
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields= ['id','name','email','age','created_at','updated_at']
+        read_only_fields = ['id','created_at','updated_at']
+        

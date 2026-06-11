@@ -1,4 +1,5 @@
-# PRODIGY_BD_01
+# PRODIGY_BD
+
 
 ## Basic REST API with CRUD Operations
 
@@ -17,6 +18,15 @@ A REST API built with Django REST Framework that performs CRUD operations on use
 - Input Validation
 - Error Handling
 - Swagger Documentation
+
+## New Features --> PRODIGY_BD_02
+
+- PostgreSQL Integration
+- Django ORM
+- Database Migrations
+- Environment Variables
+- Connection Pooling
+- Persistent Storage
 
 ---
 
@@ -41,3 +51,13 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 python manage.py runserver
+
+---
+
+## Process 
+
+✅ Task01
+✅ Task02
+❌ Task03
+❌ Task04
+❌ Task05
